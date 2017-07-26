@@ -1,0 +1,48 @@
+body {
+	background-color: #000092;
+	cursor: none;
+	
+}
+body,td,th {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Courier New";
+	font-style: normal;
+	font-weight: 400;
+	font-size: x-large;
+}
+.topAlert{
+		position: fixed;
+		top:-20px;
+		width:100%;
+		height:100%;
+		text-align: center;
+		left:50px;
+		z-index:9
+}
+body table{
+	background:#000092;
+	margin-top:-50px;
+}
+ul{
+		list-style:none;
+		margin:0px;
+		padding:0px;
+		float:left;
+		margin-right:40px;
+}
+ul li{
+		line-height:20px;
+		font-size:12px;
+}
+.number {
+    clear: both;
+    font-size: 20px;
+    margin-top: 20px;
+    float: left;
+}
+#box{ display: none; position: fixed; top: 70px; left: 50%; margin-left: -182px; width: 385px; height: 470px; border: 0px solid #c7c7c7; border-radius: 3px; background: #fbfbfb; color:#000000;padding: 20px; box-sizing: border-box; font-family: sans-serif; box-shadow: 0 2px 2px 0px #ccc; font-size: 14px; } 
+
+#box h2{ font-size: 15px; font-weight: inherit; margin: 0; } #box .btn{ border: 1px solid #bababa; border-radius: 2px; padding: 8px 10px; margin: 5px; display: inline-block; box-shadow: 0 1px 1px 0px #ccc; cursor: pointer; float: right; text-decoration: none; color: #333; } 
+
+#box .btn:nth-child(2n-1){ font-weight: bold; border: 1px solid #3c79ee; }

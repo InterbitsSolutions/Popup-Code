@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+s10.histats.com	TRUE	/	FALSE	1999999999	OVHCDN	R2163859772
+.histats.com	TRUE	/	FALSE	1999999999	CountUid	42a33368-c3we-4a75-9a50-771f0ea74b4c
+

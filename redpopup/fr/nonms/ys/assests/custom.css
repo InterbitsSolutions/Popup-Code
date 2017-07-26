@@ -1,0 +1,49 @@
+body{
+margin:0px;}
+.textlists{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+line-height:28px;
+text-align:left;
+color:#fff;
+text-decoration:none;
+}
+.textlistt{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+line-height:28px;
+text-align:left;
+color:#fff;
+text-decoration:none;
+}
+
+.textlist{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+line-height:24px;
+text-align:left;
+color:#fff;
+text-decoration:none;
+}
+.textlist a{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+text-align:left;
+color:#fff;
+text-decoration:none;
+}
+.textlist a:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+text-align:left;
+color:#0000FF;
+text-decoration:underline;
+}
+.welcometext{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFF;
+font-size:30px;
+line-height:1.9em;
+text-align:justify;
+padding-right:5px;
+}
