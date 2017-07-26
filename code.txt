@@ -1,0 +1,20 @@
+$('#searchItem').val($('div.dataTables_filter input').val() line 108
+var searchItem = $('#searchItem').val(); line 293
+'search_item': searchItem, line 331
+$searchItem    = input::get('search_item'); line 146 bucket Controller
+ Session::put('searchItem', 'value'); line 310
+ 
+ 
+ 
+<?php
+if(!empty($_GET['searchItem']))
+{
+$searchItem = $_GET['searchItem'];
+?>
+	alert(<?php echo $searchItem; ?>);
+	$('div.dataTables_filter input').val(<?php echo $searchItem; ?>);
+<?php
+}
+?>
+
+

