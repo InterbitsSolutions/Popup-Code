@@ -1979,3 +1979,15 @@ AFRMSF0251  9780058251
 
 
 Task: Host new site
+
+
+
+AFRMSCHADLT0027  01 86 65 00 27
+http://www.support.microsoft4000afrmschadlt0027.com.s3-website.eu-central-1.amazonaws.com
+
+www.support.microsoft4000afrmschadlt0027.com
+
+
+01 86 65 00 13  AFRMSC0013
+
+www.support.microsoft4000afrmsc0013.com
