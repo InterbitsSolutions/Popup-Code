@@ -1,0 +1,845 @@
+@charset "UTF-8";
+/* Ricardo Cuisine */
+/* version 1.5 */
+
+/* backgrounds */
+@media (min-width:300px) {
+	body {
+		background: url(../img/bgBois_320.jpg) center top repeat fixed #FFF;
+		background-size: 100%;
+	}
+	.footerBanner{display:none;}
+}
+@media (min-width: 720px){
+	body {
+		background: url(../img/bg_wrapper_tablet.jpg) center top repeat fixed #FFF;
+		background-size: 100%;
+	}
+	.wrapBanner{
+		min-height:110px;
+	}
+	.footerBanner{display:block;}
+}
+@media (min-width:1025px) {
+	/* background noel */
+	body {
+		background: url(../img/bg_wrapper_full.jpg) center top no-repeat fixed #FFF;
+		background-size: cover;
+	}
+}
+
+
+/* .sup-footer */
+@media (min-width:320px) {
+	
+.sup-footer .liens-sociaux .fbPageLike {
+margin-right:0 !important;
+width:100%;
+}
+
+
+.sup-footer .liens-sociaux{
+float:left;
+clear:left;
+margin:0;
+padding-right:0;
+width:100%;
+}
+
+.sup-footer .liens-sociaux .socialMediaLinks {
+padding:10px 0;
+float:left;
+clear:left;
+border-left:0 none;
+}
+
+.sup-footer .liens-sociaux .socialMediaLinks li {
+margin:0 10px 0 0;	
+}
+
+.sup-footer .liens-sociaux .socialMediaLinks li a {
+background: rgba(0, 0, 0, 0) url("../img/social-icons_2x.png") no-repeat scroll 0 0 / 100% auto;
+display: block;
+height: 32px;
+outline: 0 none;
+text-indent: -9999px;
+width: 32px;
+}
+
+.sup-footer .liens-sociaux .socialMediaLinks .smlTwitter {background-position: 0 -32px;}
+
+.sup-footer .liens-sociaux .socialMediaLinks .smlInstagram {background-position: 0 -64px;}
+
+.sup-footer .liens-sociaux .socialMediaLinks .smlYoutube {background-position: 0 -128px;}
+
+.sup-footer .liens-sociaux .socialMediaLinks .smlPinterest {background-position: 0 -160px;}	
+	
+	
+}
+
+@media (min-width:1024px) {
+
+}
+
+/* .sup-footer END*/
+
+
+/* .sub-footer START */
+
+
+.sub-footer ul.brandShotcuts {
+    max-width: 300px;
+    max-width: 30rem;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:48px;
+	margin-top:4.8rem;
+    font-size: 0;
+}
+
+.sub-footer ul.brandShotcuts li {
+    display: inline-block;
+    width: 145px;
+    width: 14.5rem;
+    height: 70px;
+    height: 7rem;
+    padding: 0;
+    margin: 0px 0px 10px 10px;
+    margin: 0rem 0rem 1rem 1rem;
+    background-image: none;
+}
+
+.sub-footer ul.brandShotcuts li:nth-of-type(2n + 1) {
+    margin-left: 0;
+}
+
+.sub-footer ul.brandShotcuts li:first-child {
+    margin-left: 0;
+}
+
+.sub-footer ul.brandShotcuts li a {
+    display: block;
+    text-align: left;
+    text-indent: -9999px;
+    width: 145px;
+    width: 14.5rem;
+    height: 70px;
+    height: 7rem;
+    background-color: rgba(255,255,255,0.15);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    outline: 0 none;
+    background-size: 100% auto;
+}
+
+.sub-footer ul.brandShotcuts li.bsItem2_ricardocuisine a {
+    background-image: url(../img/footer/logo_ricardocuisine-2x.png);
+}
+.sub-footer ul.brandShotcuts li.bsItem2_larriveevinsdumonde a {
+    background-image: url(../img/footer/logo_vinsricardo-2x.png);
+}
+.i18n-en .sub-footer ul.brandShotcuts li.bsItem2_larriveevinsdumonde a {
+    background-image: url(../img/footer/logo_ricardowines-2x.png);
+}
+.sub-footer ul.brandShotcuts li.bsItem2_mamachoka a {
+    background-image: url(../img/footer/logo_mamachoka-2x.png);
+}
+.sub-footer ul.brandShotcuts li.bsItem2_espacericardo a {
+    background-image: url(../img/footer/logo_espacericardo-2x.png);
+}
+.sub-footer ul.brandShotcuts li.bsItem2_cafericardo a {
+    background-image: url(../img/footer/logo_cafericardo-2x.png);
+}
+.sub-footer ul.brandShotcuts li.bsItem2_artdelatable a {
+    background-image: url(../img/footer/logo_artdelatable-2x.png);
+}
+.i18n-en .sub-footer ul.brandShotcuts li.bsItem2_artdelatable a {
+    background-image: url(../img/footer/logo_artofthetable-2x.png);
+}
+
+@media (min-width: 720px){
+	.sub-footer ul.brandShotcuts {
+		max-width: none;
+		margin-top: 15px;
+		margin-top: 1.5rem;
+		text-align: center;
+		width:80%;
+	}
+	.sub-footer ul.brandShotcuts li:nth-of-type(2n + 1) {
+		margin-left: 10px;
+		margin-left: 1rem;
+	}
+	.sub-footer ul.brandShotcuts li {
+		width: auto;
+		height: 70px;
+		height: 7rem;
+		margin-left: 10px;
+		margin-left: 1rem;
+	}
+	
+	.sub-footer ul.brandShotcuts li a {
+		height: 70px;
+		height: 7rem;
+	}
+}
+
+@media (min-width: 1024px){
+	.sub-footer ul.brandShotcuts {
+		width:100%;
+	}
+}
+
+/* .magazine */
+
+@media (min-width:320px) {
+	
+	
+.magazine .intro {margin-bottom:20px;}
+
+.magazine .hBundle {
+background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+border: 0 none;
+border-radius: 0;
+box-shadow: 0 0 0 transparent;
+float: left;
+margin: 0;
+padding: 0;
+text-align: left;
+}
+	
+.magazine .hBundle .pict {
+float:none;
+margin-left:auto;
+margin-right:auto;
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 1px;
+padding: 3px;
+width: 232px;
+}
+
+.magazine .hBundle .desc {
+float:none;
+margin-left:0;
+text-align: center;
+}
+
+.magazine .hBundle .desc {height: auto;}
+
+.magazine .hBundle .desc h3 {
+height: auto;
+margin: 0 0 6px;
+}
+
+.magazine .hBundle .desc h3 span {display: inline;}
+
+.magazine .hBundle .price {
+border: 0 none;
+left: 0;
+margin: 0 0 10px;
+padding: 0;
+top: 0;
+}
+
+.magazine .hBundle {
+border-bottom: 1px solid #ddd;
+clear: left;
+margin-bottom: 14px;
+padding-bottom: 8px;
+width: 100%;
+}
+
+.magazine .hBundle .pict, .hBundle .price, .meta {
+position: relative;
+}
+
+.magazine #abonnementnumerique ul {
+margin-bottom: 20px;
+}
+
+.magazine #abonnementnumerique .intro a {
+float: left;
+margin-bottom: 20px;
+}
+
+.magazine #abonnementnumerique p.hlpMsg {
+clear: none;
+font-size: 11px;
+font-style: normal;
+margin-left: 12px;
+width: auto;
+}
+
+/* fix Little glitch when hover btn */
+.magazine .bundle .primaryAction:hover {margin-right:0;}
+
+.magazine .bundle .primaryAction {margin-top:10px;}
+
+
+/* Greeting Cards */
+.greetingCards .content .unit .pict img {width:100%;}
+.greetingCards .downloadLink {padding-left:10px;}
+
+/* Where to buy */
+.whereToBuy .content .col {
+margin-left:0;
+width:100%;
+}
+
+.whereToBuy ul li {
+font-size: 14px;
+font-weight: 600;
+}
+
+
+/* -----------------:: Page Magazine Landing :: -----------------*/
+
+.magazine .subscriberAdvantages {
+background: rgba(0, 0, 0, 0) url("../img/magazine/fr/bg_dottedLine.png") repeat-x scroll left bottom;
+margin: 22px 0;
+padding: 0;
+position: relative;
+}
+
+.magazine .subscriberAdvantages .innerWrap {padding: 0;}
+
+.magazine .subscriberAdvantages h2 {
+color: #000;
+font-size: 26px;
+margin: 0 0 14px;
+width:auto;
+line-height: 26px;
+}
+
+.magazine .subscriberAdvantages ul {margin-bottom:20px;}
+
+.magazine .subscriberAdvantages ul li {
+background: rgba(0, 0, 0, 0) url("../img/magazine/fr/ic_check_black.png") no-repeat scroll 2px 3px;
+color: #000;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 11px;
+max-width: 660px;
+padding: 0 0 0 31px;
+}
+
+.magazine .magazine-main-content .details {margin-bottom:20px;}
+
+.magazine .magazine-main-content .details .intro {
+border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+float: left;
+font-size: 16px;
+line-height: 19px;
+margin: 0 0 15px;
+padding: 0 0 3px;
+width: 100%;
+}
+
+.magazine .magazine-main-content .details .actionLinks {
+float: left;
+margin-top: -10px;
+width: 100%;
+}
+
+.magazine .magazine-main-content .details .actionLinks li {
+background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+margin: 0;
+padding: 0;
+}
+
+.magazine .magazine-main-content .details .actionLinks li:last-child {margin-top: 20px;}
+
+
+.magazine .magazine-main-content .details .actionLinks .primaryAction {
+display: inline-block;
+padding: 11px 18px 10px;
+}
+
+.magazine .magazine-main-content .details .actionLinks a {
+display: block;
+font-weight: 700;
+padding: 5px 0 5px 35px;
+text-decoration: none;
+}
+
+.magazine .magazine-main-content .details .actionLinks a.iconBtn {
+display: inline-block;
+padding: 0 0 0 8px;
+vertical-align: bottom;
+}
+
+.magazine .magazine-main-content .contentPreview {
+/* to add when needed */
+background:none;
+padding:0; margin:0;
+margin-bottom:22px;
+}
+
+
+
+.magazine .magazine-main-content .details .pict {
+float:none;
+width: 220px;
+margin:0 auto 20px;
+}
+
+.magazine .magazine-main-content .details .desc {margin-left:0;}
+.magazine .magazine-main-content .details .desc h3 {text-align: center;}
+.magazine .magazine-main-content .details .actionLinks {	margin-left:0;}
+
+.magazine .magazine-main-content .details .actionLinks li {text-align: center;}
+.magazine .magazine-main-content .details .actionLinks li:last-child {margin-top:0px;}
+
+.magazine .magazine-main-content .details .actionLinks .primaryAction {display:block;}
+.magazine .magazine-main-content .details .actionLinks a.iconBtn {padding-left:0; margin-top:10px;}
+
+
+
+
+/* ----------- :: Page Digital Edition :: ------------ */
+ 
+
+.magazine .digtalEdition-main-content .hBundle {
+padding-top:35px;
+padding-bottom:0px;
+margin-bottom:20px;
+border:0 none;
+}
+
+.magazine .digtalEdition-main-content .hBundle .pict {
+background-color: transparent;
+border: 0;
+border-radius: 0;
+box-shadow: none;
+width: auto;
+z-index: 9999;
+max-width: 299px;
+}
+
+.magazine .digtalEdition-main-content .hBundle .desc {
+margin-left: 0px;
+margin-top: -20px;
+border-bottom: rgba(0,0,0,0.1) 1px solid;
+}
+
+.magazine .digtalEdition-main-content .hBundle h3 {
+text-transform: none;
+font-size: 1.6rem;
+}
+
+.magazine .digtalEdition-main-content .hBundle ul {
+margin-bottom:20px;
+}
+
+.magazine .digtalEdition-main-content .hBundle ul li {
+background-image:none;
+}
+
+.magazine .digtalEdition-main-content .hBundle .itunes {
+float:none;
+margin: 0 auto;
+width: 140px;
+display: block
+}
+
+
+.magazine .digtalEdition-main-content .hBundle p.hlpMsg {
+font-size: 11px;
+font-style: normal;
+margin-left: 12px;
+width: auto;
+clear:none;
+float:none;
+}
+
+.magazine .digtalEdition-main-content .digitalLinks {
+position: relative;
+top:0px;	
+}
+
+
+.magazine .digtalEdition-main-content .digitalLinks li {
+float:none;
+background-image:none;
+}
+
+.magazine .digtalEdition-main-content .digitalLinks li:last-child {
+width: 280px;
+text-align: center;
+margin:0 auto;
+}
+
+.magazine .digtalEdition-main-content .digitalLinks li:last-child span {
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+width: 100%;
+margin:0 auto;
+}
+
+.magazine .digtalEdition-main-content .primaryAction {
+padding: 15px 0;
+display: block;
+width: 280px;
+font-size: 21px;
+font-weight: 700;
+text-transform: uppercase;
+border-color: rgba(0,0,0,.1) rgba(0,0,0,.2) rgba(0,0,0,.4);
+box-shadow: 0 1px 2px rgba(0,0,0,.1);
+margin:0 auto 10px auto;
+}
+
+
+.magazine .digtalEdition-main-content .digitalAccess {
+background: url("../img/digital_edition/surligne.png") no-repeat scroll 0 -15px;
+display: block;
+min-height: 57px;
+margin:0 auto;
+text-align: center;
+width: 271px;
+}
+
+.magazine .digtalEdition-main-content .digitalAccess span {
+font-size: 16px;
+margin-bottom: 0;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.magazine .digtalEdition-main-content .dottedLine {
+background: url("../img/digital_edition/dotted_line.png") left center no-repeat;
+display: block;
+height: 10px;
+margin: 20px 0;
+width: 100%;
+}
+
+
+/* ----------- :: Header Magazine Bloc ::------------- */
+
+/* :: Header Magazine EN Template 01 :: tpl-hm-01 */
+
+.magazine.en .magazine-forfaits {
+padding: 30px 0;
+background: transparent none repeat scroll;
+}
+
+.magazine.en .magazine-forfaits .innerWrap {
+padding-top:0;
+padding-bottom:0;
+}
+
+.magazine.en .magazine-forfaits .headline {
+background: #fff none repeat scroll 0 0;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+color: #000;
+/* left: 50%; */
+/* margin: 0 0 0 -331px; */
+min-height: 278px;
+padding: 30px 30px 20px;
+position: relative;
+text-align: left;
+text-shadow: 0 0 0 transparent;
+top: 0;
+/* width: 395px; */ width:310px;
+text-transform: none;
+font-size: inherit;
+font-weight: normal;
+}
+
+.magazine.en .magazine-forfaits .headline h1 {
+background: transparent url("../img/magazine/en/bg_headlineTitle_en.png") no-repeat scroll 0 0 / 100% auto;
+display: block;
+height: 58px;
+left: 0;
+margin: 0 0 10px -1px;
+position: relative;
+text-indent: -9999px;
+top: 0;
+width:250px
+}
+
+.magazine.en .magazine-forfaits .featuredCover {top: 0;}
+
+.magazine.en .magazine-forfaits .featuredCover img {
+display: block;
+width: 261px;
+}
+
+.magazine.en .magazine-forfaits .headline .intro {
+margin:10px 0;
+}
+
+.magazine.en .magazine-forfaits .headline p {
+color: #000;
+float: none;
+font-size: 15px;
+font-weight: normal;
+line-height: 19px;
+margin-bottom: 4px;
+text-align: left;
+text-shadow: 0 0 0 transparent;
+}
+
+.magazine.en .magazine-forfaits .headline .intro > p:first-child {
+font-size: 16px;
+font-weight: 600;
+margin: 0 0 4px;
+}
+
+.magazine.en .magazine-forfaits .headline .intro .seeMoreLink {
+background: transparent none repeat scroll 0 0;
+bottom: 0;
+display: inline;
+font-size: inherit;
+font-weight: 600;
+left: 0;
+padding: 0;
+position: relative;
+text-indent: 0;
+text-transform: none;
+top: 0;
+}
+
+.magazine.en .magazine-forfaits .tglCont {
+left: -9999px;
+position: absolute;
+top: -9999px;
+}
+
+.magazine.en .magazine-forfaits .tglContActive {
+left: 0;
+position: relative;
+top: 0;
+}
+
+.magazine.en .magazine-forfaits .primaryAction {
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.4);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+display: block;
+float: none;
+font-size: 21px;
+font-weight: bold;
+margin: 20px auto 10px;
+padding: 15px 0;
+text-transform: uppercase;
+width: 100%;
+}
+
+.magazine.en .magazine-forfaits .giftSubscriptionLink {
+background: rgba(0, 0, 0, 0.06) none repeat scroll 0 0;
+border-radius: 2px;
+display: block;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+margin: 10px auto 0;
+padding: 9px 0 8px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+width: 248px;
+}
+
+/* :: End Header Magazine EN Template 01 :: tpl-hm-01 */
+
+
+
+
+
+}
+@media (min-width:720px) {
+	
+.magazine .hBundle .pict {
+float: left;
+margin-bottom: 5px;
+}
+
+.magazine .hBundle .desc {
+margin-left: 252px;
+padding-top: 3px;
+text-align: left;
+}
+
+/* Where to buy */
+.whereToBuy .content .col {
+width:33.333%;
+text-align: left;
+}
+
+/* :: Page Magazine Landing :: */
+
+.magazine .subscriberAdvantages {
+background: rgba(0, 0, 0, 0) url("../img/magazine/fr/bg_subscribersAdvantages.png") no-repeat scroll left top;
+min-height: 194px;
+}
+
+.magazine .subscriberAdvantages .innerWrap {padding: 25px 18px 5px 38px;}
+
+.magazine .subscriberAdvantages h2 {
+line-height: 1.8rem;
+}
+
+.magazine .magazine-main-content .details .pict {
+float:left;
+margin:0 0 2rem;
+}
+
+	
+.magazine .magazine-main-content .details .desc{margin-left:24.3rem;}
+.magazine .magazine-main-content .details .desc h3 {text-align: left;}
+
+.magazine .magazine-main-content .details .actionLinks li {text-align: inherit;}
+.magazine .magazine-main-content .details .actionLinks li:last-child {margin-top:20px;}
+
+.magazine .magazine-main-content .details .actionLinks .primaryAction {display: inline-block;}
+.magazine .magazine-main-content .details .actionLinks a.iconBtn {padding-left:8px;margin-top:0px;}
+
+
+/* ----------- :: Header Magazine Bloc ::------------- */
+
+/* :: Header Magazine EN Template 01 :: tpl-hm-01 */
+
+.magazine.en .magazine-forfaits .headline {
+width: 395px;
+left: 50%;
+margin: 0 0 0 -334px;
+}
+
+.magazine.en .magazine-forfaits .featuredCover {
+position: absolute;
+right: -277px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+border: 3px solid #fff;
+}
+
+.magazine.en .magazine-forfaits .headline h1 {
+background-size: 94% auto;
+height: 78px;
+width:359px;
+}
+
+.magazine.en .magazine-forfaits .primaryAction {width: 280px;}
+
+
+/* :: End Header Magazine EN Template 01 :: tpl-hm-01 */
+
+
+
+
+/* ----------- :: Page Digital Edition :: ------------ */
+
+.magazine.digitalEdition .digtalEdition-main-content {
+margin:0 auto;
+max-width:681px;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .available {
+background:url("../img/digital_edition/bg_iPadPromo.png") no-repeat scroll;
+position: absolute;
+z-index: 5000;
+width:696px;
+height:222px;
+right:0;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .hBundle{
+margin-bottom:0;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .hBundle h3 {
+font-size: 1.4rem;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .hBundle .desc {
+margin-left: 320px;
+margin-top: 200px;
+border:0 none;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .hBundle ul {
+list-style:disc;
+}
+.magazine.digitalEdition .digtalEdition-main-content .hBundle .itunes {
+float:left;
+margin:0;
+width:auto;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .hBundle p.hlpMsg {
+float:left;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .digitalLinks li {
+float:left;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .digitalLinks li:last-child span {
+margin:0;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .digitalLinks {
+position: relative;
+top:-20px;	
+}
+
+
+.magazine.digitalEdition .digtalEdition-main-content .primaryAction {
+margin:0;
+}
+
+.magazine.digitalEdition .digtalEdition-main-content .digitalAccess {
+margin-left:20px;
+}
+
+}
+
+@media (min-width:1024px) {
+	
+/* :: Page Magazine Landing :: */
+.magazine .subscriberAdvantages {
+background-position: right 5px;
+background-size:99% auto;
+margin-top:0;
+}
+
+
+/* ----------- :: Header Magazine Bloc ::------------- */
+
+/* :: Header Magazine EN Template 01 :: tpl-hm-01 */
+
+.magazine.en .magazine-forfaits .headline {
+width: 420px;
+margin-left:-331px;
+}
+
+.magazine.en .magazine-forfaits .headline h1 {background-size: 100% auto;}
+
+/* :: End Header Magazine EN Template 01 :: tpl-hm-01 */
+
+}
+
+@media (min-width:1100px) {
+
+/* :: Page Magazine Landing :: */
+.magazine .subscriberAdvantages {
+background-position:0 0;
+background-size:100% auto;
+}
+
+}
+
+/* extra print css */
+@media print {
+	#dmCatfishv2{display:none}
+}

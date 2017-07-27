@@ -1,0 +1,15 @@
+sir suppose client say to me 
+
+
+i need www.support.microsoft1101afrmsd9158 on new server 
+then with 1100 i know on whcih server that is then either i or client switch to that server 
+and trasnfer the bucket to new server.
+
+Now 2nd thing i am thinking about popular bucket.
+We make all buckets popular that we need on ever server suppose 15 are that 
+
+Now suppose client say that swtich to new server thenk i go to popular bucekts link
+or client can also go and then duplcaite those popular bucekts to new aws2 and the new server ready...
+
+
+I am just thinking need your review
